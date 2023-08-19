@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Dolce Vita">
+    <meta name="description" content="J'expose ici mes créations : peintures, pop art, papercutting, collages…">
+    <meta name="keywords" content="gallery, galerie, portfolio, art, peinture, pop art, papercutting, collage">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="French">
+    <meta name="author" content="Natasha Dolce">
+
+    <!-- Favicons  -->
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/favicon/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="img/favicon/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/favicon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="img/favicon/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/favicon/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="img/favicon/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="img/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="img/favicon/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="Dolce Vita"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="img/favicon/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="img/favicon/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="img/favicon/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="img/favicon/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="img/favicon/mstile-310x310.png" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dolcevita.github.io/">
+    <meta property="og:title" content="Dolce Vita">
+    <meta property="og:description" content="J'expose ici mes créations : peintures, pop art, papercutting, collages…">
+
+    <!-- Open Graph / Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://dolcevita.github.io/">
+    <meta property="twitter:title" content="Dolce Vita">
+    <meta property="twitter:description" content="J'expose ici mes créations : peintures, pop art, papercutting, collages…">
+
+    <title>Dolce Vita</title>
+
+    <link rel="stylesheet" href="css/plugins.styles.css">
+    <link rel="stylesheet" href="css/main.styles.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon/favicon-32x32.png">
+</head>
+<body>
+
+  <div class="container">
+    <div class="row">
+
+      <div class="main-header">
+        <img src="img/favicon/favicon-96x96.png">
+        <h1 class="header-title">Dolce Vita</h1>
+        <p class="header-description">J'expose ici mes créations.<br>Elles sont peintures, pop art, papercutting, collages.<br>Pour moi, ce ne sont que des « ressentis ».</p>
+      </div>
+
+      <div class="links">
+        <h2><a class="selected" href="">Galerie</a></h2>
+        <span class="sep">|</span>
+        <h2><a href="about.html">À propos & Contact</a></h2>
+      </div>
+
+      <div class="gallery-search">
+        <form action="">
+          <input type="text" class="gallery-search-bar" placeholder="Rechercher...">
+        </form>
+      </div>
+
+      <div class="gallery-grid">
+        <figure class="item" data-tag="melancolie hivernale">
+          <a class="gallery-item" href="img/1.jpg" data-pswp-width="1875" data-pswp-height="2000" target="_blank" rel="noopener">
+            <div class="img-content">
+              <img class="gallery-img" src="img/1.jpg" alt="Mélancolie hivernale"/>
+              <div class="overlay"></div>
+            </div>
+            <figcaption class="hidden-caption-content">
+              <p class="title">Mélancolie hivernale</p>
+              <p class="size"><b>Taille</b> : 20 × 20 cm</p>
+              <p class="price"><b>Prix</b> : 40 €</p>
+              <small>Peinture acrylique ; crayon noir ; transfert d'image ; effets embués ; collage « journal texte » ; collage « fleur ». Toile coton.</small>
+            </figcaption>
+          </a>
+        </figure>
+
+        <figure class="item" data-tag="kakophonie cacophonie">
+          <a class="gallery-item" href="img/2.jpg" data-pswp-width="1920" data-pswp-height="1200" target="_blank" rel="noopener">
+            <div class="img-content">
+              <img class="gallery-img" src="img/2.jpg" alt="Kakophonie" />
+              <div class="overlay"></div>
+            </div>
+            <figcaption class="hidden-caption-content">
+              <p class="title">Kakophonie</p>
+              <p class="size"><b>Taille</b> : 20 × 20 cm</p>
+              <p class="price"><b>Prix</b> : 40 €</p>
+              <small>Patchwork ; transfert ; collage ; effets ; crayon noir. Toile coton.</small>
+            </figcaption>
+          </a>
+        </figure>
+
+        <figure class="item" data-tag="amour defunt">
+          <a class="gallery-item" href="img/3.jpg" data-pswp-width="2500" data-pswp-height="1666" target="_blank" rel="noopener">
+            <div class="img-content">
+              <img class="gallery-img" src="img/3.jpg" alt="Amour défunt"/>
+              <div class="overlay"></div>
+            </div>
+            <figcaption class="hidden-caption-content">
+              <p class="title">Amour défunt</p>
+              <p class="size"><b>Taille</b> : 20 × 20 cm</p>
+              <p class="price"><b>Prix</b> : 40 €</p>
+              <small>Peinture acrylique ; collage ; paillettes ; papier ; texte journal ; crayon noir ; plume. Toile coton.</small>
+            </figcaption>
+          </a>
+        </figure>
+
+        <figure class="item" data-tag="philosophie free">
+          <a class="gallery-item" href="img/4.jpg" data-pswp-width="2500" data-pswp-height="1666" target="_blank" rel="noopener">
+            <div class="img-content">
+              <img class="gallery-img" src="img/4.jpg" alt="Philosophie Free">
+              <div class="overlay"></div>
+            </div>
+            <figcaption class="hidden-caption-content">
+              <p class="title">Philosophie Free</p>
+              <p class="size"><b>Taille</b> : 20 × 20 cm</p>
+              <p class="price"><b>Prix</b> : 40 €</p>
+              <small>Peinture acrylique ; crayon noir ; collage ; paillettes ; plume ; colle. Toile coton.</small>
+            </figcaption>
+          </a>
+        </figure>
+
+        <figure class="item" data-tag="folie ordinaire">
+          <a class="gallery-item"  href="img/5.jpg" data-pswp-width="1280" data-pswp-height="854" target="_blank" rel="noopener">
+            <div class="img-content">
+              <img class="gallery-img" src="img/5.jpg" alt="Folie ordinaire">
+              <div class="overlay"></div>
+            </div>
+            <figcaption class="hidden-caption-content">
+              <p class="title">Folie ordinaire</p>
+              <p class="size"><b>Taille</b> : 20 × 20 cm</p>
+              <p class="price"><b>Prix</b> : 40 €</p>
+              <small>Collage ; effet colle ; crayon noir ; peinture gouache. Toile coton.</small>
+            </figcaption>
+          </a>
+        </figure>
+
+        <figure class="item" data-tag="parc monceau">
+          <a class="gallery-item"  href="img/6.jpg" data-pswp-width="1280" data-pswp-height="854" target="_blank" rel="noopener">
+            <div class="img-content">
+              <img class="gallery-img" src="img/6.jpg" alt="Parc Monceau">
+              <div class="overlay"></div>
+            </div>
+            <figcaption class="hidden-caption-content">
+              <p class="title">Parc Monceau</p>
+              <p class="size"><b>Taille</b> : 15 × 15 cm (épaisseur : 1 cm)</p>
+              <p class="price"><b>Prix</b> : 20 €</p>
+              <small>Collage ; peinture acrylique ; jus de betteraves ; graines de sésame ; curry. Toile coton.</small>
+            </figcaption>
+          </a>
+        </figure>
+
+        <figure class="item" data-tag="nuit agitee">
+          <a class="gallery-item"  href="img/7.jpg" data-pswp-width="1280" data-pswp-height="854" target="_blank" rel="noopener">
+            <div class="img-content">
+              <img class="gallery-img" src="img/7.jpg" alt="Nuit agitée">
+              <div class="overlay"></div>
+            </div>
+            <figcaption class="hidden-caption-content">
+              <p class="title">Nuit agitée</p>
+              <p class="size"><b>Taille</b> : 20 × 30 cm (épaisseur : 1 cm)</p>
+              <p class="price"><b>Prix</b> : 50 €</p>
+              <small>Collage ; crayon noir ; peinture or ; paillettes ; colle.</small>
+            </figcaption>
+          </a>
+        </figure>
+
+        <figure class="item" data-tag="put*** putain de vie" data-category="technology">
+          <a class="gallery-item"  href="img/8.jpg" data-pswp-width="2000" data-pswp-height="1333" target="_blank" rel="noopener">
+            <div class="img-content">
+              <img class="gallery-img" src="img/8.jpg" alt="Put*** de vie">
+              <div class="overlay"></div>
+            </div>
+            <figcaption class="hidden-caption-content">
+              <p class="title">Put*** de vie</p>
+              <p class="size"><b>Taille</b> : 40 × 30 cm (épaisseur : 1 cm)</p>
+              <p class="price"><b>Prix</b> : 50 €</p>
+              <small>Collage ; tresse papier ; peinture or ; papier ; texte journal ; crayon noir ; fleur collée.</small>
+            </figcaption>
+          </a>
+        </figure>
+
+        <figure class="item" data-tag="vent d'ete" data-category="cities">
+          <a class="gallery-item"  href="img/9.jpg" data-pswp-width="1920" data-pswp-height="1080" target="_blank" rel="noopener">
+            <div class="img-content">
+              <img class="gallery-img" src="img/9.jpg" alt="Vent d'été">
+              <div class="overlay"></div>
+            </div>
+            <figcaption class="hidden-caption-content">
+              <p class="title">Vent d'été</p>
+              <p class="size"><b>Taille</b> : 30 × 40 cm (épaisseur : 1 cm)</p>
+              <p class="price"><b>Prix</b> : 50 €</p>
+              <small>Peinture acrylique et à l'huile. Toile coton.</small>
+            </figcaption>
+          </a>
+        </figure>
+
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+<!--
+        <figure class="item" data-tag="" data-category="">
+          <a class="gallery-item"  href="" data-pswp-width="" data-pswp-height="" target="_blank" rel="noopener">
+            <div class="img-content">
+              <img class="gallery-img" src="" alt="">
+              <div class="overlay"></div>
+            </div>
+            <figcaption class="hidden-caption-content">
+              <p></p>
+              <small></small>
+            </figcaption>
+          </a>
+        </figure>
+-->
+
+  <footer class="container">
+    <div class="row">
+      <div class="footer-content">
+        <small>Copyright &#169; <script>document.write(new Date().getFullYear())</script> | Tous droits réservés.</small>
+      </div>
+    </div>
+  </footer>
+
+    <script type="text/javascript" src="js/plugins.min.js"></script>
+    <script type="text/javascript" src="js/main.script.js"></script>
+</body>
+</html>
