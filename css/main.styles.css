@@ -1,0 +1,235 @@
+*{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-Light.woff2') format('woff2'),
+      url('../fonts/Poppins-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-Regular.woff2') format('woff2'),
+      url('../fonts/Poppins-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-SemiBold.woff2') format('woff2'),
+      url('../fonts/Poppins-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-Bold.woff2') format('woff2'),
+      url('../fonts/Poppins-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a:visited, a:active {
+  color: inherit;
+}
+
+hr {
+  margin-top: 2em;
+  width: 80%;
+  background: linear-gradient(to left, #ccc, #333, #ccc);
+  height: 0.2em;
+  border: 0;
+}
+
+input, textarea {
+  border: 2px solid #4f4f4f;
+  border-radius: 4px;
+  transition: 60ms border ease-in-out;
+  color: black;
+  font-size: 1.2em;
+}
+
+input:focus, textarea:focus {
+	border: 3px solid black;
+	outline: 3px solid transparent;
+}
+
+.github-icon{
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.links {
+  text-align: center;
+  border: 2px solid #4f4f4f;
+  padding: 1em;
+  max-width: 40rem;
+  margin: 2em auto;
+}
+
+.links h2 {
+  display: inline;
+}
+
+.links a {
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 2px 2px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.links a:not(.selected):hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-15px);}}%3C/style%3E%3Cpath fill='none' stroke='%23000000' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-size: auto 4px;
+}
+
+.links a.selected {
+  text-decoration: underline 1px solid;
+  text-underline-offset: 6px;
+}
+
+.sep {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.container {
+  position: relative;
+  max-width: 1230px;
+  margin: auto;
+}
+
+.text-block {
+  float: left;
+  text-align: justify;
+  margin-left: 10%;
+  max-width: 70%;
+  word-break: keep-all;
+}
+
+.svg-text {
+  vertical-align: middle;
+  margin-left: 0.2em;
+}
+
+.svg-title {
+  vertical-align: middle;
+}
+
+.contact {
+  text-align: center;
+}
+
+.row{
+  display: flex;
+  flex-direction: column;
+} 
+
+.footer-content{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.footer-content p{
+  margin-bottom: 0;
+  margin-top: 40px;
+}
+
+.footer-content a{
+  text-decoration: none;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.size {
+  margin: 0;
+}
+
+.price {
+  margin-top: 0;
+}
+
+#error {
+  background: #D5232CCF;
+	color: white;
+	font-weight: 600;
+	border-radius: 15px;
+	padding: 10px;
+	text-align: center;
+	display: none;
+	max-width: 500px;
+  margin: 0 auto;
+}
+
+#success {
+  background: #578876;
+	color: white;
+	font-weight: 600;
+	border-radius: 15px;
+	padding: 10px;
+	text-align: center;
+	display: none;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+#name, #email {
+  padding: 0.25em 0 0.25em 0;
+  width: 250px;
+  height: 30px;
+  text-align: center;
+  border-radius: 2rem;
+}
+
+#message {
+  padding: 0 0.25em 0 0.25em;
+  width: 600px;
+  height: 200px;
+  max-width: 90%;
+  border-radius: 2rem;
+  text-align: center;
+}
+
+button.send {
+  margin: 20px 0 40px 0;
+	background: transparent;
+	border: 2px solid #4f4f4f;
+	color: black;
+	padding: 10px 40px 10px 40px;
+	font-size: 20px;
+	background-image:linear-gradient(198deg, rgba(56,52,52,1) 59%, rgba(38,45,38,1) 100%);
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: background-size 0.3s ease-out;
+}
+
+.send:hover {
+  background-size: 100% 100%;
+	border-color: black;
+  color: white;
+  cursor: pointer;
+}
